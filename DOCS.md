@@ -49,8 +49,9 @@ POST /send-html
 Content-Type: application/json
 
 {
+  "code": 123456,
   "user": {
-    "email": "ejemplo@dominio.com"
+    "email": "ejemplo@gmail.com"
   }
 }
 ```
@@ -81,7 +82,7 @@ Content-Type: application/json
 {
   "code": 123456,
   "user": {
-    "email": "pedrosilvan20003@gmail.com"
+    "email": "ejemplo@gmail.com"
   }
 }
 
